@@ -299,6 +299,12 @@ body,
     border-radius: 18px;
     padding: 2rem 1.5rem;
 
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.015);
+      box-shadow: 0px 4px 8px rgba(18, 170, 219, 0.3);
+    }
+
     &--description {
       font-style: normal;
       font-weight: 500;
