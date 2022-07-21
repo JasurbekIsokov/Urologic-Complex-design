@@ -255,3 +255,71 @@ body,
 }
 
 // /Section 2: Медицинская клиника работает постоянно
+
+.section_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 160%;
+
+  color: #0b304f;
+}
+
+// Section 3: Почему выбирают нас
+
+.section3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.5rem;
+  margin-bottom: 8rem;
+
+  &__box1 {
+    background-color: rgba($color: #f27bb5, $alpha: 0.09);
+  }
+  &__box2 {
+    background-color: rgba($color: #008475, $alpha: 0.09);
+  }
+  &__box3 {
+    background-color: rgba($color: #6aa8ff, $alpha: 0.09);
+  }
+  &__box4 {
+    background-color: rgba($color: #ffd944, $alpha: 0.09);
+  }
+  &__box5 {
+    background-color: rgba($color: #f27bb5, $alpha: 0.09);
+  }
+  &__box6 {
+    background-color: rgba($color: #6aa8ff, $alpha: 0.09);
+  }
+
+  &__box {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
+    border-radius: 18px;
+    padding: 2rem 1.5rem;
+
+    &--description {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      color: #8394a2;
+    }
+    &--top {
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+    }
+
+    &--top-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 130%;
+      color: #0b304f;
+    }
+  }
+}
+
+// /Section 3: Почему выбирают нас
