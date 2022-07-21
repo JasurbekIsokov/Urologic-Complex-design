@@ -4,9 +4,191 @@ body,
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  // background: #f9f9f9;
+}
+
+.bgColor {
+  background-color: rgba($color: #12aadb, $alpha: 0.1);
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
 }
+
+// Main section
+
+.main {
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    &--workTime {
+      margin-top: 1rem;
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+
+      color: #576f83;
+    }
+
+    &--title {
+      // font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 110%;
+      color: #0b304f;
+      margin-top: 3.1rem;
+    }
+
+    &--description {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      color: #8394a2;
+      margin-top: 1rem;
+    }
+
+    &--btn {
+      margin-top: 3rem;
+
+      .btn {
+        padding: 8px 32px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .reletion {
+        width: 141px;
+        height: 42px;
+        background: #12aadb;
+        border: 1px solid #12aadb;
+        outline: none;
+        border: none;
+        box-shadow: 0px 8px 32px rgba(18, 170, 219, 0.3);
+        border-radius: 16px;
+        color: white;
+      }
+
+      .more-read {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        background: none;
+        border: none;
+        color: #0b304f;
+        font-style: normal;
+      }
+      .more-read:hover {
+        background: #12aadb;
+        box-shadow: 0px 8px 32px rgba(18, 170, 219, 0.3);
+        border-radius: 16px;
+        color: white;
+        transition: all 0.3s;
+      }
+    }
+  }
+
+  &__right {
+    position: relative;
+    &--img {
+      margin-top: 3rem;
+      margin-right: 5.5rem;
+    }
+
+    &--rectengle {
+      position: absolute;
+      width: 34.4rem;
+      z-index: -1;
+      height: 20rem;
+      left: 0px;
+      top: 13.1875rem;
+      margin-left: 1rem;
+
+      background: #12aadb;
+      opacity: 0.2;
+      border-radius: 12.5rem 0 0 12.5rem;
+    }
+
+    &--box {
+      position: absolute;
+      width: 12.75rem;
+      height: 9.125rem;
+      left: 18.5rem;
+      top: 20.5rem;
+      background: #ffffff;
+      box-shadow: 0px 8px 16px rgba(11, 48, 79, 0.03);
+      border-radius: 32px;
+      text-align: center;
+
+      .ellipce1 {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: 1rem;
+        top: 1rem;
+      }
+
+      .ellipce2 {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: 40px;
+        top: 1rem;
+      }
+
+      .ellipce3 {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: 65px;
+        top: 1rem;
+      }
+
+      .ellipce4 {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: 88px;
+        top: 1rem;
+      }
+
+      .ellipce5 {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: 112px;
+        top: 1rem;
+      }
+
+      .ellipce6 {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: 136px;
+        top: 1rem;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        padding: 18px 0;
+        background: #12aadb;
+      }
+
+      .patent {
+        // font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        color: #0b304f;
+        margin-top: 5rem;
+      }
+    }
+  }
+}
+
+// /Mein section
