@@ -125,8 +125,17 @@ body,
       border-radius: 32px;
       text-align: center;
 
-      .ellipce1 {
+      .ellipce {
         position: absolute;
+        &:hover {
+          z-index: 100;
+          cursor: pointer;
+          transform: scale(1.1);
+          transition: all 0.5s;
+        }
+      }
+
+      .ellipce1 {
         width: 52px;
         height: 52px;
         left: 1rem;
@@ -134,7 +143,6 @@ body,
       }
 
       .ellipce2 {
-        position: absolute;
         width: 52px;
         height: 52px;
         left: 40px;
@@ -142,7 +150,6 @@ body,
       }
 
       .ellipce3 {
-        position: absolute;
         width: 52px;
         height: 52px;
         left: 65px;
@@ -150,7 +157,6 @@ body,
       }
 
       .ellipce4 {
-        position: absolute;
         width: 52px;
         height: 52px;
         left: 88px;
@@ -158,7 +164,6 @@ body,
       }
 
       .ellipce5 {
-        position: absolute;
         width: 52px;
         height: 52px;
         left: 112px;
@@ -166,7 +171,6 @@ body,
       }
 
       .ellipce6 {
-        position: absolute;
         width: 52px;
         height: 52px;
         left: 136px;
