@@ -3,6 +3,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  .header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; }
+    .header__logo--name {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 15px;
+      line-height: 160%;
+      /* identical to box height, or 24px */
+      letter-spacing: -0.06em;
+      /* additional1 */
+      color: #0b304f;
+      margin-left: 10px; }
+  .header .navbar ul li {
+    display: inline-block;
+    margin: 0 10px;
+    color: #0b304f;
+    cursor: pointer; }
+    .header .navbar ul li a {
+      text-decoration: none;
+      font-weight: 500;
+      line-height: 160%;
+      color: #0b304f; }
 
 body,
 * {
