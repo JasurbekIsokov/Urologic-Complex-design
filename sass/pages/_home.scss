@@ -269,8 +269,8 @@ body,
   font-weight: 700;
   font-size: 40px;
   line-height: 160%;
-
   color: #0b304f;
+  margin-bottom: 1.5rem;
 }
 
 // Section 3: Почему выбирают нас
@@ -343,6 +343,7 @@ body,
 .section4 {
   display: grid;
   grid-template-columns: auto;
+  margin-bottom: 2rem;
 
   &__top {
     display: grid;
@@ -395,6 +396,9 @@ body,
       padding: 2rem;
       i {
         color: #0b304f;
+        padding: 1.1rem;
+        background-color: #fff;
+        border-radius: 50%;
       }
     }
 
@@ -421,11 +425,60 @@ body,
       width: 292px;
       height: 283px;
       border-radius: 16px;
+
+      &:hover {
+        transform: scale(1.03);
+      }
     }
 
     .urologiya {
       background: #f1f7ff;
     }
+  }
+
+  &__midle {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    i {
+      color: #0b304f;
+      padding: 1.1rem;
+      background-color: #fff;
+      border-radius: 50%;
+    }
+
+    &--box {
+      padding: 32px;
+      width: 292px;
+      height: 283px;
+      border-radius: 16px;
+
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+
+    &--box-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 120%;
+      color: #0f2f64;
+      margin-top: 1rem;
+    }
+
+    &--box-description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: #8394a2;
+      margin-bottom: 2.2rem;
+    }
+  }
+
+  .bgColorBox {
+    background-color: #f1f7ff;
   }
 }
 

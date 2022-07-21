@@ -247,7 +247,8 @@ body,
   font-weight: 700;
   font-size: 40px;
   line-height: 160%;
-  color: #0b304f; }
+  color: #0b304f;
+  margin-bottom: 1.5rem; }
 
 .section3 {
   display: grid;
@@ -295,7 +296,8 @@ body,
 
 .section4 {
   display: grid;
-  grid-template-columns: auto; }
+  grid-template-columns: auto;
+  margin-bottom: 2rem; }
   .section4__top {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr; }
@@ -335,7 +337,10 @@ body,
     .section4__top--box {
       padding: 2rem; }
       .section4__top--box i {
-        color: #0b304f; }
+        color: #0b304f;
+        padding: 1.1rem;
+        background-color: #fff;
+        border-radius: 50%; }
     .section4__top--box-title {
       font-style: normal;
       font-weight: 600;
@@ -355,5 +360,39 @@ body,
       width: 292px;
       height: 283px;
       border-radius: 16px; }
+      .section4__top .urologiya:hover,
+      .section4__top .uroginekologiya:hover {
+        transform: scale(1.03); }
     .section4__top .urologiya {
       background: #f1f7ff; }
+  .section4__midle {
+    display: grid;
+    grid-template-columns: auto auto auto auto; }
+    .section4__midle i {
+      color: #0b304f;
+      padding: 1.1rem;
+      background-color: #fff;
+      border-radius: 50%; }
+    .section4__midle--box {
+      padding: 32px;
+      width: 292px;
+      height: 283px;
+      border-radius: 16px; }
+      .section4__midle--box:hover {
+        transform: scale(1.03); }
+    .section4__midle--box-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 120%;
+      color: #0f2f64;
+      margin-top: 1rem; }
+    .section4__midle--box-description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: #8394a2;
+      margin-bottom: 2.2rem; }
+  .section4 .bgColorBox {
+    background-color: #f1f7ff; }
