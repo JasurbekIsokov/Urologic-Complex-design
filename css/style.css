@@ -29,6 +29,24 @@
       font-weight: 500;
       line-height: 160%;
       color: #0b304f; }
+  .header__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .header__right .search {
+      color: #afb7bf; }
+    .header__right .language {
+      margin-left: 20px; }
+    .header__right .language {
+      margin: 0 10px 0 20px; }
+    .header__right--contact {
+      margin-left: 20px;
+      padding: 8px 32px;
+      background: #12aadb;
+      box-shadow: 0px 8px 32px rgba(18, 170, 219, 0.3);
+      border-radius: 16px;
+      color: white;
+      cursor: pointer; }
 
 body,
 * {
