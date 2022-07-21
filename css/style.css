@@ -299,6 +299,8 @@ body,
   .section4__top {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr; }
+    .section4__top--box1 i {
+      color: #fff; }
     .section4__top--box1-title {
       font-style: normal;
       font-weight: 700;
@@ -332,3 +334,26 @@ body,
       margin-top: 2rem; }
     .section4__top--box {
       padding: 2rem; }
+      .section4__top--box i {
+        color: #0b304f; }
+    .section4__top--box-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 120%;
+      color: #0b304f;
+      margin-top: 1.4rem; }
+    .section4__top--box-description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: #8394a2;
+      margin-bottom: 2.2rem; }
+    .section4__top .urologiya,
+    .section4__top .uroginekologiya {
+      width: 292px;
+      height: 283px;
+      border-radius: 16px; }
+    .section4__top .urologiya {
+      background: #f1f7ff; }
