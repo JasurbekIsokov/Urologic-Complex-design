@@ -24,11 +24,15 @@
     margin: 0 10px;
     color: #0b304f;
     cursor: pointer; }
+    .header .navbar ul li:hover {
+      color: #12aadb; }
     .header .navbar ul li a {
       text-decoration: none;
       font-weight: 500;
       line-height: 160%;
       color: #0b304f; }
+      .header .navbar ul li a:hover {
+        color: #12aadb; }
   .header__right {
     display: flex;
     justify-content: space-between;
@@ -36,9 +40,8 @@
     .header__right .search {
       color: #afb7bf; }
     .header__right .language {
-      margin-left: 20px; }
-    .header__right .language {
-      margin: 0 10px 0 20px; }
+      margin: 0 10px 0 20px;
+      cursor: pointer; }
     .header__right--contact {
       margin-left: 20px;
       padding: 8px 32px;

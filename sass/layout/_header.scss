@@ -39,12 +39,19 @@
         color: #0b304f;
         cursor: pointer;
 
+        &:hover {
+          color: #12aadb;
+        }
         a {
           // font-family: "Gilroy";
           text-decoration: none;
           font-weight: 500;
           line-height: 160%;
           color: #0b304f;
+
+          &:hover {
+            color: #12aadb;
+          }
         }
       }
     }
@@ -62,11 +69,8 @@
     }
 
     .language {
-      margin-left: 20px;
-    }
-
-    .language {
       margin: 0 10px 0 20px;
+      cursor: pointer;
     }
 
     &--contact {
