@@ -16,6 +16,14 @@ body,
   margin: 0 auto;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(1.05);
+}
+
 // Main section
 
 .main {
@@ -331,5 +339,56 @@ body,
 // /Section 3: Почему выбирают нас
 
 //  Section 4: Наши услуги
+
+.section4 {
+  display: grid;
+  grid-template-columns: auto;
+
+  &__top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+
+    &--box1-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 120%;
+      align-items: center;
+      color: #0f2f64;
+    }
+
+    &--box1-description {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      align-items: center;
+      color: #8394a2;
+      margin-top: 1.5rem;
+    }
+
+    &--box1-btn {
+      padding: 8px 24px;
+      width: 157px;
+      height: 42px;
+      left: 156px;
+      top: 1968px;
+      background: #12aadb;
+      box-shadow: 0px 8px 32px rgba(18, 170, 219, 0.3);
+      border-radius: 16px;
+      border: none;
+      color: #fff;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+      margin-top: 2rem;
+    }
+
+    &--box {
+      padding: 2rem;
+    }
+  }
+}
 
 // /Section 4: Наши услуги
