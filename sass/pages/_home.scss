@@ -654,4 +654,49 @@ body,
 
 // Section 7 : Блог клиники
 
+.section7 {
+  display: flex;
+  justify-content: space-between;
+
+  &__head {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    &--title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 160%;
+      color: #0b304f;
+    }
+
+    &--btn {
+      padding: 8px 16px;
+      width: 180px;
+      height: 42px;
+      border: none;
+      background-color: #fff;
+
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+      color: #0b304f;
+
+      i {
+        margin-left: 0.5rem;
+      }
+
+      &:hover {
+        background: #12aadb;
+        box-shadow: 0px 0.5rem 2rem rgba(18, 170, 219, 0.3);
+        border-radius: 0.75rem;
+        color: #fff;
+        transition: all 0.3s;
+      }
+    }
+  }
+}
+
 // /Section 7 : Блог клиники
