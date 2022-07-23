@@ -659,3 +659,64 @@ body,
     color: #afb7bf; }
   .section7__right--box-midle {
     margin: 1.25rem 0; }
+
+.section8 {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0 6.125rem 5.8125rem;
+  background-image: url(../images/HomeImage/section8-back.svg);
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  position: relative;
+  margin-top: 7rem;
+  margin-bottom: 10rem; }
+  .section8__left--title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #0b304f; }
+  .section8__left--description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    color: #2b4b65;
+    margin: 1rem 0 1.5rem 0;
+    width: 519px;
+    height: 114px; }
+  .section8__left--form {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem; }
+    .section8__left--form input {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 1rem;
+      outline: none;
+      border: none;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: #afb7bf; }
+    .section8__left--form button {
+      background: #12aadb;
+      border-radius: 16px;
+      padding: 1.125rem;
+      border: none;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+      color: #ffffff; }
+  .section8__right img {
+    margin-top: -7.3125rem;
+    z-index: 3; }
+  .section8__right--rectengle {
+    width: 442px;
+    height: 320px;
+    border-radius: 160px 0 0 160px;
+    background: #ffffff;
+    z-index: 2;
+    margin-top: -21.3125rem; }
