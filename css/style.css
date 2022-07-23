@@ -396,3 +396,36 @@ body,
       margin-bottom: 2.2rem; }
   .section4 .bgColorBox {
     background-color: #f1f7ff; }
+
+.section5 {
+  display: flex;
+  justify-content: space-between;
+  background: #e5f6fc;
+  border-radius: 32px;
+  margin-top: 6.5rem;
+  margin-bottom: 6.5rem;
+  padding: 2rem 2rem 2rem 3.75rem; }
+  .section5__left--title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #0b304f; }
+  .section5__left--description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 165%;
+    color: #2b4b65;
+    margin: 1rem 0 2rem 0; }
+  .section5__left--btn {
+    padding: 10px 32px;
+    left: 1px;
+    top: 242px;
+    background: #12aadb;
+    border-radius: 16px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%; }
