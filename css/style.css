@@ -19,20 +19,29 @@
       /* additional1 */
       color: #0b304f;
       margin-left: 10px; }
-  .header .navbar ul li {
-    display: inline-block;
-    margin: 0 10px;
-    color: #0b304f;
-    cursor: pointer; }
-    .header .navbar ul li:hover {
-      color: #12aadb; }
-    .header .navbar ul li a {
-      text-decoration: none;
-      font-weight: 500;
-      line-height: 160%;
-      color: #0b304f; }
-      .header .navbar ul li a:hover {
+  .header .navbar {
+    align-items: center;
+    padding-top: 2rem; }
+    .header .navbar ul li {
+      display: inline-block;
+      margin: 0 10px;
+      color: #0b304f;
+      cursor: pointer; }
+      .header .navbar ul li:hover {
         color: #12aadb; }
+      .header .navbar ul li a {
+        text-decoration: none;
+        font-weight: 500;
+        line-height: 160%;
+        color: #0b304f; }
+        .header .navbar ul li a:hover {
+          color: #12aadb; }
+  .header .navbarDrop {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #8394a2; }
   .header__right {
     display: flex;
     justify-content: space-between;
@@ -40,8 +49,11 @@
     .header__right .search {
       color: #afb7bf; }
     .header__right .language {
+      list-style-type: none;
       margin: 0 10px 0 20px;
       cursor: pointer; }
+      .header__right .language a {
+        text-decoration: none; }
     .header__right--contact {
       margin-left: 20px;
       padding: 8px 32px;
@@ -51,15 +63,19 @@
       color: white;
       cursor: pointer; }
 
-.footer {
+.footerr {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr;
   padding-top: 3.5rem; }
-  .footer__left--logo {
+  .footerr::before, .footerr::after {
+    width: 0;
+    height: 0;
+    display: none; }
+  .footerr__left--logo {
     display: flex;
     justify-content: start;
     align-items: center; }
-    .footer__left--logo p {
+    .footerr__left--logo p {
       font-style: normal;
       font-weight: 800;
       font-size: 15px;
@@ -67,19 +83,19 @@
       letter-spacing: -0.06em;
       color: #0b304f;
       margin-left: 0.5rem; }
-  .footer__left--description {
+  .footerr__left--description {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #afb7bf;
     margin: 0.75rem 0 1.0625rem 0; }
-  .footer__left--call {
+  .footerr__left--call {
     display: flex;
     justify-content: start; }
-    .footer__left--call a {
+    .footerr__left--call a {
       text-decoration: none; }
-      .footer__left--call a i {
+      .footerr__left--call a i {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -89,7 +105,7 @@
         border-radius: 30px;
         margin-right: 2rem;
         color: #12aadb; }
-  .footer__left--bottom-paragraph {
+  .footerr__left--bottom-paragraph {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -97,7 +113,7 @@
     color: #8394a2;
     margin-top: 1.1875rem;
     margin-bottom: 3.3125rem; }
-  .footer__leftMidle p, .footer__rightMidle p {
+  .footerr__leftMidle p, .footerr__rightMidle p {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -105,21 +121,21 @@
     text-transform: capitalize;
     color: #0b304f;
     margin-bottom: 2rem; }
-  .footer__leftMidle ul, .footer__rightMidle ul {
+  .footerr__leftMidle ul, .footerr__rightMidle ul {
     text-decoration: none;
     list-style-type: none; }
-    .footer__leftMidle ul li a, .footer__rightMidle ul li a {
+    .footerr__leftMidle ul li a, .footerr__rightMidle ul li a {
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
       line-height: 16px;
       color: #9a9ea6;
       text-decoration: none; }
-  .footer__leftMidle ul li:nth-child(2), .footer__rightMidle ul li:nth-child(2) {
+  .footerr__leftMidle ul li:nth-child(2), .footerr__rightMidle ul li:nth-child(2) {
     margin: 1rem 0; }
-  .footer__leftMidle ul li:nth-child(4), .footer__rightMidle ul li:nth-child(4) {
+  .footerr__leftMidle ul li:nth-child(4), .footerr__rightMidle ul li:nth-child(4) {
     margin: 1rem 0; }
-  .footer__right--title {
+  .footerr__right--title {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -127,20 +143,20 @@
     text-transform: capitalize;
     color: #0b304f;
     margin-bottom: 2rem; }
-  .footer__right--description {
+  .footerr__right--description {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
     color: #9a9ea6;
     margin-bottom: 0.5rem; }
-  .footer__right--email {
+  .footerr__right--email {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #0b304f; }
-    .footer__right--email span {
+    .footerr__right--email span {
       font-style: normal;
       font-weight: 400;
       font-size: 16px;

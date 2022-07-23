@@ -32,6 +32,8 @@
 
   // navbar
   .navbar {
+    align-items: center;
+    padding-top: 2rem;
     ul {
       li {
         display: inline-block;
@@ -56,6 +58,14 @@
       }
     }
   }
+
+  .navbarDrop {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    color: #8394a2;
+  }
   // /navbar
 
   // hedaer right
@@ -69,8 +79,13 @@
     }
 
     .language {
+      list-style-type: none;
       margin: 0 10px 0 20px;
       cursor: pointer;
+
+      a {
+        text-decoration: none;
+      }
     }
 
     &--contact {

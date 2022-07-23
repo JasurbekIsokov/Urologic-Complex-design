@@ -1,4 +1,10 @@
-.footer {
+.footerr {
+  &::before,
+  &::after {
+    width: 0;
+    height: 0;
+    display: none;
+  }
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr;
   padding-top: 3.5rem;
