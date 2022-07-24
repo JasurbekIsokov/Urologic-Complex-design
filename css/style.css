@@ -962,3 +962,38 @@ body,
     margin-bottom: 1rem; }
   .section4__top--box1-btn {
     display: none; } }
+
+@media only screen and (max-width: 500px) {
+  .arrow {
+    display: none; }
+  .footerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    .footerr__left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center; }
+      .footerr__left--logo, .footerr__left--call {
+        justify-content: center; }
+      .footerr__left--logo p {
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 160%;
+        letter-spacing: -0.06em; }
+      .footerr__left--description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px; }
+      .footerr__left--call a i {
+        padding: 0.5rem;
+        width: 32px;
+        height: 32px; }
+      .footerr__left--bottom-paragraph {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px; }
+    .footerr__leftMidle, .footerr__rightMidle, .footerr__right {
+      display: none; } }

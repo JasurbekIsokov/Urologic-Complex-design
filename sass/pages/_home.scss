@@ -1155,3 +1155,65 @@ body,
     }
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .arrow {
+    display: none;
+  }
+
+  .footerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &__left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+
+      &--logo,
+      &--call {
+        justify-content: center;
+      }
+
+      &--logo {
+        p {
+          font-weight: 800;
+          font-size: 15px;
+          line-height: 160%;
+          letter-spacing: -0.06em;
+        }
+      }
+
+      &--description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+      }
+
+      &--call {
+        a {
+          i {
+            padding: 0.5rem;
+            width: 32px;
+            height: 32px;
+          }
+        }
+      }
+
+      &--bottom-paragraph {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+
+    &__leftMidle,
+    &__rightMidle,
+    &__right {
+      display: none;
+    }
+  }
+}
