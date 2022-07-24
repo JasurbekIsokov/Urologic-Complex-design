@@ -1691,10 +1691,13 @@ body,
     .pagenation .dod:hover {
       background: #12aadb;
       color: white; }
-    .pagenation span:checked,
-    .pagenation .dod:checked {
-      background: #12aadb; }
 
 .pagenation span:nth-child(2) {
   background: #12aadb;
   color: white; }
+
+video {
+  width: 936px;
+  height: 490px;
+  border-radius: 24px;
+  margin: 6rem 0; }
