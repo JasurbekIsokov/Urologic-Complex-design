@@ -1,0 +1,83 @@
+// section1
+
+.section1 {
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: #0b304f;
+    margin: 4.5rem 0 1rem 0;
+  }
+
+  &__date {
+    margin: 1.5rem 0 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    i {
+      margin: -1rem 0.5rem 0 0;
+      color: #afb7bf;
+    }
+
+    &--year {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+      color: #afb7bf;
+      margin-right: 2rem;
+    }
+
+    &--hours {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+      color: #afb7bf;
+    }
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #576f83;
+    margin: 3rem 0 1.5rem 0;
+
+    max-width: 936px;
+  }
+
+  img {
+    max-width: 936px;
+    max-height: 452px;
+    border-radius: 24px;
+  }
+
+  &__title2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0b304f;
+    margin: 2.5rem 0 1rem 0;
+  }
+
+  ul {
+    margin: 0 0 1.5rem 1rem;
+    li {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #576f83;
+    }
+  }
+
+  &__description2 {
+    max-width: 936px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #576f83;
+  }
+}
+
+// /section1
