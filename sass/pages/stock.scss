@@ -1,0 +1,39 @@
+// pagenation
+
+.pagenation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  span,
+  i {
+    margin-left: 1rem;
+  }
+
+  span,
+  .dod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: #8394a2;
+    background: #e5f6fc;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      background: #12aadb;
+      color: white;
+    }
+  }
+}
+
+.pagenation span:nth-child(2) {
+  background: #12aadb;
+  color: white;
+}
+
+// pagenation

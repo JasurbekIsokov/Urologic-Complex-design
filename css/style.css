@@ -708,7 +708,7 @@ body,
       align-items: center;
       justify-content: start; }
       .section7__left--date i {
-        margin: 0 0.5rem 0 0;
+        margin: -1rem 0.5rem 0 0;
         color: #afb7bf; }
     .section7__left--date-year {
       font-style: normal;
@@ -1666,3 +1666,35 @@ body,
   font-size: 18px;
   line-height: 160%;
   color: #576f83; }
+
+.pagenation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .pagenation span,
+  .pagenation i {
+    margin-left: 1rem; }
+  .pagenation span,
+  .pagenation .dod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: #8394a2;
+    background: #e5f6fc;
+    cursor: pointer;
+    transition: all 0.3s; }
+    .pagenation span:hover,
+    .pagenation .dod:hover {
+      background: #12aadb;
+      color: white; }
+    .pagenation span:checked,
+    .pagenation .dod:checked {
+      background: #12aadb; }
+
+.pagenation span:nth-child(2) {
+  background: #12aadb;
+  color: white; }
