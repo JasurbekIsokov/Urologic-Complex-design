@@ -109,3 +109,37 @@
 }
 
 // /Section2
+
+// Section 3: Галерея
+
+.galareya-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  margin-bottom: 1.5rem;
+  color: #0b304f;
+}
+
+.services-section3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6.625rem;
+  &__left {
+    width: 552px;
+    height: 386px;
+
+    background: url(), #d9d9d9;
+    border-radius: 24px;
+  }
+
+  &__right {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    img {
+      margin: 0 1.5rem 1.875rem 1.5rem;
+    }
+  }
+}
+
+// /Section 3: Галерея
