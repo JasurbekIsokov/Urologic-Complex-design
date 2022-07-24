@@ -1454,3 +1454,36 @@ body,
       font-size: 16px;
       line-height: 150%;
       color: #8394a2; }
+
+.services_section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7.5rem; }
+  .services_section2__right {
+    margin-left: 7rem; }
+    .services_section2__right--title, .services_section2__right--title-1 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 150%;
+      color: #0b304f;
+      margin-top: 1.5rem; }
+    .services_section2__right--description {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #8394a2;
+      margin-top: 2rem; }
+    .services_section2__right ul {
+      margin: 0.5rem 0;
+      list-style: none; }
+      .services_section2__right ul li {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #8394a2; }
+    .services_section2__right ul li::before {
+      content: "\2022";
+      color: #ffb201;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em; }
