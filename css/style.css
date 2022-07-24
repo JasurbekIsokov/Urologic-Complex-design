@@ -1286,3 +1286,20 @@ body,
         line-height: 16px; }
     .footerr__leftMidle, .footerr__rightMidle, .footerr__right {
       display: none; } }
+
+.priceMain {
+  display: flex;
+  justify-content: space-between;
+  margin: 3.5625rem 0 2.3125rem 0; }
+  .priceMain__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #0b304f; }
+  .priceMain__description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    color: #2b4b65; }
