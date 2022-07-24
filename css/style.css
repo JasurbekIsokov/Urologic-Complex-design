@@ -1254,6 +1254,8 @@ body,
         font-size: 14px;
         line-height: 160%;
         margin: -0.25rem 0; }
+      .section8__left--form button:hover {
+        color: #fff; }
   .footerr {
     display: flex;
     flex-direction: column;
