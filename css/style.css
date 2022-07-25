@@ -1714,3 +1714,31 @@ video {
 
 .ourServicesMain-description {
   margin-bottom: 2.6rem; }
+
+.aboutMain {
+  margin: 3.5rem 0 5rem 0;
+  position: relative; }
+  .aboutMain__head {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    align-items: center;
+    margin-bottom: 4.5rem; }
+    .aboutMain__head--title {
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 140%;
+      color: #0b304f; }
+    .aboutMain__head--description {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      color: #8394a2; }
+  .aboutMain__right, .aboutMain__left {
+    position: absolute; }
+  .aboutMain__left {
+    top: 100%;
+    left: -9%; }
+  .aboutMain__right {
+    top: 4.2%;
+    right: -9%; }

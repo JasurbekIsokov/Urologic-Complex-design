@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Jasurbek Isoqov -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urologic Complex</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+</html>
+<body>
+  <div class="containerr">
+    <!--  -->
+
+    <header class="header">
+      <div class="header__logo">
+        <img
+          src="./images/HomeImage/logo-svg.svg"
+          alt="logo"
+          class="header__logo--img"
+        />
+        <p class="header__logo--name">UROLOGIC COMPLEX</p>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a style="color: #12aadb" href="#">Главная</a></li>
+          <li><a href="./price.html">Прайс лист</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+              >О нас <span class="caret"></span
+            ></a>
+            <!-- <i class="fa-solid fa-chevron-down"></i> -->
+
+            <ul class="dropdown-menu">
+              <li><a href="#" class="navbarDrop">Описание</a></li>
+              <li><a href="#" class="navbarDrop">FAQ</a></li>
+              <li><a href="#" class="navbarDrop">Врачи</a></li>
+              <li><a href="#" class="navbarDrop">Стационар</a></li>
+              <li><a href="#" class="navbarDrop">Отзывы</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Услуги <span class="caret"></span
+            ></a>
+            <!-- <i class="fa-solid fa-chevron-down"></i> -->
+
+            <ul class="dropdown-menu">
+              <li><a href="#" class="navbarDrop">Консультация</a></li>
+              <li><a href="#" class="navbarDrop">Физиотерапия</a></li>
+              <li><a href="#" class="navbarDrop">Хирургия</a></li>
+              <li><a href="#" class="navbarDrop">Урология</a></li>
+              <li><a href="#" class="navbarDrop">Андрология</a></li>
+              <li><a href="#" class="navbarDrop">Анализы</a></li>
+              <li><a href="#" class="navbarDrop">УЗД</a></li>
+              <li><a href="#" class="navbarDrop">МСКТ</a></li>
+              <li><a href="#" class="navbarDrop">Урогинекология</a></li>
+              <li><a href="#" class="navbarDrop">Онкология</a></li>
+              <li><a href="#" class="navbarDrop">Гинекология</a></li>
+            </ul>
+          </li>
+
+          <li><a href="./articles.html">Статьи</a></li>
+          <li><a href="./stock.html">Акции</a></li>
+        </ul>
+      </nav>
+      <div class="header__right">
+        <i class="fa-solid fa-magnifying-glass search"></i>
+        <!-- <p class="language">Pyc</p> -->
+        <li class="dropdown language">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Pyc <span class="caret"></span
+          ></a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="navbarDrop">Узб</a></li>
+            <li><a href="#" class="navbarDrop">Рус</a></li>
+          </ul>
+        </li>
+        <!-- <i class="fa-solid fa-chevron-down"></i> -->
+        <p class="header__right--contact">Контакты</p>
+      </div>
+
+      <div class="header__search">
+        <i class="fa-solid fa-magnifying-glass search"></i>
+        <input type="text" placeholder="Введите запрос" />
+      </div>
+    </header>
+
+    <!--  -->
+  </div>
+
+  <!-- aboutMain -->
+
+  <div class="container">
+    <section class="aboutMain" id="aboutMain">
+      <div class="aboutMain__head">
+        <div class="aboutMain__head--title">
+          Новаторская современная клиника, <br />
+          предоставляющая лучший сервис для <br />
+          здоровья человека
+        </div>
+        <div class="aboutMain__head--description">
+          Мы верим, что когда команда профессионалов в области здравоохранения
+          сотрудничает с современными технологиями, она будет предоставлять
+          быстрые, точные и точные медицинские услуги.
+        </div>
+      </div>
+      <img
+        src="./images/aboutUs/main1.svg"
+        alt="youtube"
+        class="aboutMain__body"
+      />
+      <img
+        src="./images/aboutUs/main-left.svg"
+        class="aboutMain__left"
+        alt="icon"
+      />
+      <img
+        src="./images/aboutUs/main-right.svg"
+        class="aboutMain__right"
+        alt="icon"
+      />
+    </section>
+  </div>
+
+  <!-- aboutMain -->
+
+  <!-- Section 8: Запишитесь на прием -->
+
+  <section class="section8 containerr">
+    <div class="section8__left">
+      <p class="section8__left--title">Запишитесь на прием</p>
+      <p class="section8__left--description">
+        Оставьте свои контактные данные, и наш <br />
+        менеджер свяжется с вами в течение пяти <br />
+        минут
+      </p>
+      <form class="section8__left--form">
+        <input type="text" placeholder="Ваше имя" required />
+        <input type="text" placeholder="Ваше фамилия" required />
+        <input type="number" placeholder="Номер телефона" required />
+        <button class="section8__left--form-btn btn">Заказать звонок</button>
+      </form>
+    </div>
+
+    <div class="section8__right">
+      <img src="./images/HomeImage/section8.svg" alt="Запишитесь на прием" />
+      <div class="section8__right--rectengle"></div>
+    </div>
+  </section>
+
+  <!-- Section 8: Запишитесь на прием -->
+
+  <!-- Footer -->
+
+  <a href="#aboutMain" class="arrow">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+  <footerr class="footerr containerr">
+    <div class="footerr__left">
+      <div class="footerr__left--logo">
+        <img src="./images/HomeImage/logo-svg.svg" alt="Logo" />
+        <p>UROLOGIC COMPLEX</p>
+      </div>
+      <p class="footerr__left--description">
+        We ara a lorem ipsum dolor sit amet, <br />
+        consectetur adipiscing elit, sed do eiusmod <br />
+        tempor incididunt ut labore et dolore magna <br />
+        aliqua.
+      </p>
+      <div class="footerr__left--call">
+        <a href="#" class="btn"> <i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="btn"> <i class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="btn"> <i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <p class="footerr__left--bottom-paragraph">© 2022, All Rights Reserved</p>
+    </div>
+    <div class="footerr__leftMidle">
+      <p>О нас</p>
+      <ul>
+        <li><a href="#">Описание</a></li>
+        <li><a href="#">Наши врачи</a></li>
+        <li><a href="#">Лицензии</a></li>
+        <li><a href="#">Стационар</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footerr__rightMidle">
+      <p>Услуги</p>
+      <ul>
+        <li><a href="#">Урология</a></li>
+        <li><a href="#">Гинекология</a></li>
+        <li><a href="#">Адрология</a></li>
+        <li><a href="#">Хирургия</a></li>
+        <li><a href="#">Онкология</a></li>
+      </ul>
+    </div>
+    <div class="footerr__right">
+      <p class="footerr__right--title">Адрес</p>
+      <p class="footerr__right--description">
+        г. Ташкент, Учтепинский район, 12 квартал, ул. М. <br />
+        Шайхзода, 7 (Ориентир: налоговая Инспекция <br />
+        Учтепинского района)
+      </p>
+      <p class="footerr__right--email">E-mail: <span>info@urologic.uz</span></p>
+      <div class="kompaniy">
+        <p class="kompaniyName">Разработано IT компанией</p>
+        <img src="./images/HomeImage/kompaniyName.svg" alt="Kompaniy name" />
+      </div>
+    </div>
+  </footerr>
+
+  <!-- /Footer -->
+</body>
