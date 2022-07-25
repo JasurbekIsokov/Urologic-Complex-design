@@ -486,6 +486,9 @@ body,
         padding: 1.1rem;
         background-color: #fff;
         border-radius: 50%; }
+        .section4__top--box i:hover {
+          background-color: #0b304f;
+          color: #fff; }
     .section4__top--box-title {
       font-style: normal;
       font-weight: 600;
@@ -512,12 +515,16 @@ body,
       background: #f1f7ff; }
   .section4__midle {
     display: grid;
-    grid-template-columns: auto auto auto auto; }
+    grid-template-columns: auto auto auto auto;
+    gap: 0.5rem; }
     .section4__midle i {
       color: #0b304f;
       padding: 1.1rem;
       background-color: #fff;
       border-radius: 50%; }
+      .section4__midle i:hover {
+        background-color: #0b304f;
+        color: #fff; }
     .section4__midle--box {
       padding: 32px;
       width: 292px;
@@ -1701,3 +1708,9 @@ video {
   height: 490px;
   border-radius: 24px;
   margin: 6rem 0; }
+
+.ourServicesMain-title {
+  margin: 57px 0 1rem 0; }
+
+.ourServicesMain-description {
+  margin-bottom: 2.6rem; }
