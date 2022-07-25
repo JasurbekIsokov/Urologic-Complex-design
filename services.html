@@ -14,6 +14,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -25,7 +32,6 @@
 
 <body>
   <!-- Services -->
-
   <div class="containerr">
     <!--  -->
 
@@ -40,13 +46,12 @@
       </div>
       <nav class="navbar">
         <ul>
-          <li><a href="./index.html">Главная</a></li>
+          <li><a style="color: #12aadb" href="#">Главная</a></li>
           <li><a href="./price.html">Прайс лист</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-              >О нас <span class="caret"></span
+              >О нас <span> <i class="fa-solid fa-chevron-down"></i> </span
             ></a>
-            <!-- <i class="fa-solid fa-chevron-down"></i> -->
 
             <ul class="dropdown-menu">
               <li><a href="#" class="navbarDrop">Описание</a></li>
@@ -57,15 +62,10 @@
             </ul>
           </li>
           <li class="dropdown">
-            <a
-              class="dropdown-toggle"
-              data-toggle="dropdown"
-              href="#"
-              style="color: #12aadb"
-            >
-              Услуги <span class="caret"></span
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Услуги
+              <span> <i class="fa-solid fa-chevron-down"></i> </span
             ></a>
-            <!-- <i class="fa-solid fa-chevron-down"></i> -->
 
             <ul class="dropdown-menu">
               <li><a href="#" class="navbarDrop">Консультация</a></li>
@@ -82,30 +82,32 @@
             </ul>
           </li>
 
-          <li><a href="#">Статьи</a></li>
-          <li><a href="#">Акции</a></li>
+          <li><a href="./articles.html">Статьи</a></li>
+          <li><a href="./stock.html">Акции</a></li>
         </ul>
       </nav>
       <div class="header__right">
-        <i class="fa-solid fa-magnifying-glass search"></i>
+        <!-- <i class="fa-solid fa-magnifying-glass search"></i> -->
+        <img src="./images/header-search.svg" alt="search-icon" />
         <!-- <p class="language">Pyc</p> -->
         <li class="dropdown language">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-            Pyc <span class="caret"></span
+            Pyc <span> <i class="fa-solid fa-chevron-down"></i></span
           ></a>
           <ul class="dropdown-menu">
             <li><a href="#" class="navbarDrop">Узб</a></li>
             <li><a href="#" class="navbarDrop">Рус</a></li>
           </ul>
         </li>
-        <!-- <i class="fa-solid fa-chevron-down"></i> -->
+
         <p class="header__right--contact">Контакты</p>
       </div>
 
-      <div class="header__search">
-        <i class="fa-solid fa-magnifying-glass search"></i>
-        <input type="text" placeholder="Введите запрос" />
-      </div>
+      <!-- 
+          <div class="header__search">
+            <i class="fa-solid fa-magnifying-glass search"></i>
+            <input type="text" placeholder="Введите запрос" />
+          </div> -->
     </header>
 
     <!--  -->
@@ -334,7 +336,7 @@
         <input type="text" placeholder="Ваше имя" required />
         <input type="text" placeholder="Ваше фамилия" required />
         <input type="number" placeholder="Номер телефона" required />
-        <button class="section8__left--form-btn btn">Заказать звонок</button>
+        <button class="section8__left--form-btn">Заказать звонок</button>
       </form>
     </div>
 
@@ -351,7 +353,6 @@
   <a href="#servicesMain" class="arrow">
     <i class="fa-solid fa-arrow-up"></i>
   </a>
-
   <footerr class="footerr containerr">
     <div class="footerr__left">
       <div class="footerr__left--logo">
@@ -365,11 +366,10 @@
         aliqua.
       </p>
       <div class="footerr__left--call">
-        <a href="#" class="btn"> <i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#" class="btn"> <i class="fa-brands fa-youtube"></i></a>
-        <a href="#" class="btn"> <i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+        <a href="#"> <i class="fa-brands fa-whatsapp"></i></a>
       </div>
-      <p class="footerr__left--bottom-paragraph">© 2022, All Rights Reserved</p>
     </div>
     <div class="footerr__leftMidle">
       <p>О нас</p>
@@ -399,12 +399,15 @@
         Учтепинского района)
       </p>
       <p class="footerr__right--email">E-mail: <span>info@urologic.uz</span></p>
-      <div class="kompaniy">
-        <p class="kompaniyName">Разработано IT компанией</p>
-        <img src="./images/HomeImage/kompaniyName.svg" alt="Kompaniy name" />
-      </div>
     </div>
   </footerr>
+  <div class="footerr__bottom">
+    <p class="footerr__bottom--title">© 2022, All Rights Reserved</p>
+    <div class="footerr__bottom--kompany">
+      <p class="footerr__bottom--kompanyName">Разработано IT компанией</p>
+      <img src="./images/HomeImage/kompaniyName.svg" alt="Kompaniy name" />
+    </div>
+  </div>
 
   <!-- /Footer -->
 

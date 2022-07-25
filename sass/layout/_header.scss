@@ -4,6 +4,9 @@
   justify-content: space-between;
   align-items: center;
 
+  span {
+    margin-left: 10px;
+  }
   // logo section
   &__logo {
     display: flex;
@@ -12,19 +15,15 @@
     text-align: center;
 
     &--name {
-      font-family: "Montserrat";
+      font-family: "Montserrat", sans-serif;
       font-style: normal;
       font-weight: 800;
       font-size: 15px;
-      line-height: 160%;
-      /* identical to box height, or 24px */
-
       letter-spacing: -0.06em;
-
-      /* additional1 */
-
+      line-height: 160%;
       color: #0b304f;
       margin-left: 10px;
+      line-height: 160%;
     }
   }
 
@@ -39,6 +38,7 @@
         display: inline-block;
         margin: 0 10px;
         color: #0b304f;
+        padding: 0.5rem;
         cursor: pointer;
 
         &:hover {
