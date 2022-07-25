@@ -173,3 +173,41 @@
 }
 
 // /price
+
+@media only screen and (max-width: 400px) {
+  .priceMain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &__title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 140%;
+      color: #0b304f;
+    }
+
+    &__description {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      color: #2b4b65;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .price {
+    display: flex;
+    justify-content: center;
+    // flex-direction: column;
+    &__right {
+      display: none;
+    }
+
+    &__left {
+      width: 100%;
+    }
+  }
+}

@@ -1345,6 +1345,9 @@ body,
   }
 
   .section5 {
+    padding: 1.5rem;
+    width: 90%;
+    margin: auto;
     &__left {
       &--title {
         display: flex;
@@ -1418,6 +1421,10 @@ body,
       justify-content: start;
       text-align: left;
 
+      .res {
+        display: none;
+      }
+
       &--box {
         background: #e5f6fc;
         border-radius: 32px;
@@ -1462,6 +1469,7 @@ body,
         font-weight: 600;
         font-size: 16px;
         line-height: 150%;
+        padding: 9px;
       }
     }
   }
@@ -1486,7 +1494,7 @@ body,
         border: 1px solid #12aadb;
       }
 
-      img {
+      .img {
         width: 295px;
         height: 200px;
       }
@@ -1680,6 +1688,18 @@ body,
     justify-content: center;
     text-align: center;
     margin-top: 2rem;
+
+    &__bottom {
+      display: flex;
+      justify-content: center;
+
+      &--title {
+        text-align: center;
+      }
+      &--kompany {
+        display: none;
+      }
+    }
 
     &__left {
       display: flex;
