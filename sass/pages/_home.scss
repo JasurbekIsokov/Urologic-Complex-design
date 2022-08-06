@@ -1,15 +1,4 @@
-html {
-  scroll-behavior: smooth;
-}
 
-body,
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  // background: #f9f9f9;
-}
 
 .bgColor {
   background-color: rgba($color: #12aadb, $alpha: 0.1);
@@ -1193,7 +1182,7 @@ body,
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .containerr {
     width: 100%;
     padding: 0 2rem;

@@ -197,12 +197,17 @@
 html {
   scroll-behavior: smooth; }
 
+@font-face {
+  font-family: Gilroy;
+  src: url(../../font/Gilroy-Medium.ttf); }
+
 body,
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif; }
+  font-family: Gilroy, sans-serif;
+  font-style: normal; }
 
 .bgColor {
   background-color: rgba(18, 170, 219, 0.1); }
@@ -1001,7 +1006,7 @@ body,
   .section4__top--box1-btn {
     display: none; } }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .containerr {
     width: 100%;
     padding: 0 2rem; }
@@ -1467,7 +1472,7 @@ body,
     .price__right--table li:nth-child(odd) {
       background: #f3fcff; }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .priceMain {
     display: flex;
     flex-direction: column;
